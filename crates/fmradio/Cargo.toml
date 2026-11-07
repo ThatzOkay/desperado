@@ -23,7 +23,7 @@ path = "src/lib.rs"
 num-complex = "0.4"
 rubato = "5.0.0"
 crossbeam-channel = "0.5"
-tinyaudio = "0.1"
+tinyaudio = { git = "https://github.com/ThatzOkay/tinyaudio" }
 tracing = "0.1"
 approx = "0.5"
 serde = { version = "1.0", features = ["derive"] }
